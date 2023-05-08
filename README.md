@@ -13,7 +13,7 @@ boxing usando el ambiente de la librería proporcionada, a través de un algorit
 * Task 1
 https://youtu.be/SRGooFWNXBg
 
-*Task 2
+* Task 2
 
 # Imagenes
 
