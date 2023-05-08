@@ -76,9 +76,10 @@ for n in range(n_test_episodes):
     estado_n_end = False
 
     for step in range(sub_p):
-        doing = np.argmax(final_q_t[estado_n, :])
-        follow_state, gain, estado_n_end, _, _ = FrozenLake.step(doing)
-        follow_state = int(follow_state)
-        estado_n = follow_state
-        if estado_n_end:
+        if estado_n_end == True:
             break
+        else:
+            doing = np.argmax(final_q_t[estado_n, :])
+            follow_state, gain, estado_n_end, _, _ = FrozenLake.step(doing)
+            follow_state = int(follow_state)
+            estado_n = follow_state
