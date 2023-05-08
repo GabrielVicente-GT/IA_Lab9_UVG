@@ -1,7 +1,7 @@
 """
 Autor: Gabriel Vicente (20498)
 Grupo: 5
-Proyecto: Laboratorio 9 Q-learning en Frozen Lake
+Proyecto: Laboratorio 9 Q-learning en PunchOut
 
 Descripción:
 Implementar un agente inteligente que resuelva el juego de Punch Out usando un algoritmo de aprendizaje por refuerzo.
