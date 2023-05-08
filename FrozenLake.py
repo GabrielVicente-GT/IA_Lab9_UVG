@@ -68,7 +68,6 @@ print(final_q_t)
 
 # Mejora progresiva del agente
 n_test_episodes = 100
-total_gains = []
 for n in range(n_test_episodes):
     estado_n = FrozenLake.reset()
     estado_n = estado_n[0]
